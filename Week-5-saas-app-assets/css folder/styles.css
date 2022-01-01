@@ -1,0 +1,93 @@
+.header1 {
+  display: flex;
+  background-color: var(--bg-color);
+}
+
+.top-menu {
+  margin-left: var(--size-50);
+  margin-right: auto;
+}
+
+.top-demo-doc {
+  margin-right: 65px;
+}
+
+.docs {
+  margin-left: var(--size-20);
+}
+
+.main-header2 {
+  background-color: var(--bg-color);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: var(--size-20) 0;
+
+}
+
+.brand-name {
+  height: var(--size-30);
+  width: var(--size-100);
+  margin-left: var(--size-40);
+  margin-right: auto;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  margin-right: 4.375rem;
+}
+
+.navLink {
+  margin-right: var(--size-20);
+  text-transform: uppercase;
+}
+
+.navLink a:hover {
+  color: var(--font-color-link);
+  font-weight: 600;
+}
+
+.empowering {
+  width: 100%;
+  height: 24.125rem;
+  position:relative;
+  z-index:0;
+  padding-top: var(--size-10);  
+}
+
+.empowering::before {
+  content:"";
+  position:absolute;
+  z-index:-1;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 65%, 0px 100%);
+  background-color: var(--bg-color);
+}
+
+.block-text {margin: 0 var(--size-50);}
+
+.block-text h1 {
+  font-size: var(--size-40);
+  font-weight: 600;
+  color: var(--black);
+}
+.block-text p {
+  font-size: 15px;
+  margin-bottom: var(--size-40) ;
+}
+
+.emp-vid {
+  padding: 0.75rem 0.85rem;
+  margin-right: var(--size-20);
+}
+
+.learn-more {
+  color: var(--font-color-link);
+  font-weight: 800;
+}
