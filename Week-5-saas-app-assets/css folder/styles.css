@@ -4,7 +4,7 @@
 }
 
 .top-menu {
-  margin-left: var(--size-50);
+  margin-left: 5.3125rem;
   margin-right: auto;
 }
 
@@ -30,7 +30,7 @@
 .brand-name {
   height: var(--size-30);
   width: var(--size-100);
-  margin-left: var(--size-40);
+  margin-left: 5.3125rem;
   margin-right: auto;
 }
 
@@ -52,10 +52,10 @@
 
 .empowering {
   width: 100%;
-  height: 24.125rem;
-  position:relative;
+  height: 25.115rem;
+  position: relative;
   z-index:0;
-  padding-top: var(--size-10);  
+  padding-top: var(--size-10); 
 }
 
 .empowering::before {
@@ -70,16 +70,21 @@
   background-color: var(--bg-color);
 }
 
-.block-text {margin: 0 var(--size-50);}
+.block-text {
+  margin: 0 5.125rem;
+  position: relative;
+  top: var(--size-30);
+}
 
 .block-text h1 {
   font-size: var(--size-40);
   font-weight: 600;
   color: var(--black);
+  margin-bottom: 0;
 }
 .block-text p {
   font-size: 15px;
-  margin-bottom: var(--size-40) ;
+  margin-bottom: var(--size-40);
 }
 
 .emp-vid {
@@ -91,3 +96,64 @@
   color: var(--font-color-link);
   font-weight: 800;
 }
+
+.emp-icons {
+  display: grid;
+  grid-template-rows: 3.75rem 3.75rem 3.75rem 3.75rem 3.75rem 3.75rem;
+  grid-template-columns: 6.25rem 6.25rem 6.25rem 6.25rem 6.25rem;
+  margin-left: 16.25rem;
+  position: relative;
+  top: var(--size-40);
+}
+
+.google {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.atlassian {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.asana {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.paypal {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.Weave {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.google-ads {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  position: relative;
+  left: var(--size-20);
+}
+
+.calendar {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+

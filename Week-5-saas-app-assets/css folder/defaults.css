@@ -81,3 +81,20 @@ img {
   background-color: var(--bg-color);
 }
 
+.logo-icons {
+  padding: 0.9375rem;
+  box-shadow: 0 0 10px rgb(48 63 100 / 15%);
+  background-color: var(--white);
+  border-radius: 50%;
+  width: var(--size-30);
+  position: relative;
+  animation: mymove 2s 1;
+}
+
+@keyframes mymove {
+  0%   {top: 100px;}
+  100% {top: 0px;}
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
