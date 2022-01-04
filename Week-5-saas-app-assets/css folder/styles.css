@@ -253,7 +253,7 @@
  
 }
 
-.front-text-container {
+.top-front-text-container {
   text-align: center;
   margin-bottom: var(--size-50);
 }
@@ -277,12 +277,21 @@
   margin: auto;
 }
 
-.dot1 h4, .dot2 h4, .dot3 h4, .dot4 h4 {color: var(--black);}
-
-
 .line {
   flex-grow: 0.3;
-  border-bottom: 1px solid lightgray;
-  margin-bottom: 90px;
-  
+  border-top: 1px solid lightgray;
+  margin-top: 28px;
+}
+
+.bottom-text-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dot1-text {
+  margin-left: -10px;
+}
+
+.dot2-text {
+  margin-left: 35px;
 }
