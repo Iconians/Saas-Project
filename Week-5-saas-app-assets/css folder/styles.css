@@ -74,6 +74,7 @@
 
 .block-text {
   margin: 0 8.125rem;
+  margin-right: auto;
   position: relative;
   top: var(--size-30);
 }
@@ -106,6 +107,7 @@
   margin-left: 6.25rem;
   position: relative;
   top: var(--size-40);
+  margin-right: var(--size-50);
 }
 
 .google {
@@ -164,6 +166,7 @@
 .key-cards {
   display: flex;
   gap: var(--size-30);
+  justify-content: center;
 }
 
 .cards {
@@ -228,27 +231,27 @@
 
 .perspective-container {
   display: flex;
-  height: 480px;
+  height: 30rem;
   background-color: var(--bg-color);
-
-
 }
 
 .text-container {
-  margin: auto;
+  margin: auto auto auto 5rem;
+  font-size: var(--size-20);
 }
 
 .banner1 {
- width: 580px;
+ width: 41.5625rem;
   margin-top: auto;
 }
 
 .why-front {
-  margin-bottom: 100px;
+  margin-bottom: var(--size-100);
+  height: 46.25rem;
 }
 
 .why-front-container {
-  width: 800px;
+  width: 50rem;
   margin: auto;
  
 }
@@ -263,14 +266,14 @@
 .dots-inline {
   display: flex;
   justify-content: space-evenly;
-  width: 700px;
+  width: 43.75rem;
   margin: auto;
 }
 .dots {
-  font-size: 26px;
+  font-size: 1.625rem;
   text-align: center;
-  width: 55px;
-  height: 55px;
+  width: 3.4375rem;
+  height: 3.4375rem;
   background-color: var(--bg-color);
   color: var(--button-color);
   border-radius: 50%;
@@ -280,7 +283,7 @@
 .line {
   flex-grow: 0.3;
   border-top: 1px solid lightgray;
-  margin-top: 28px;
+  margin-top: 1.75rem;
 }
 
 .bottom-text-container {
@@ -289,9 +292,120 @@
 }
 
 .dot1-text {
-  margin-left: -10px;
+  margin-left: -0.625rem;
 }
 
 .dot2-text {
-  margin-left: 35px;
+  margin-left: 2.1875rem;
+}
+
+.vid-link {position: relative;}
+
+.video-button {
+  background-color: var(--white);
+  color: var(--black);
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgb(222 222 222 / 30%);
+}
+
+.fa-play {
+  position: relative;
+  top: 30%;
+  left: 40%;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+  margin: var(--size-150) 0;
+}
+
+.testimonial-picture {
+  position: relative;
+  margin-right: var(--size-20);
+  width: 500px;
+}
+
+.background-dots {
+  width: 211px;
+  margin-left: 10px;
+}
+
+.main-pic {
+  width: 434px;
+  position: absolute;
+  left: 52px;
+  top: -156px;
+}
+
+.test-text-container img {
+  width: 100px;
+}
+
+.test-text-container h4 {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.trusted-section p {
+  text-align: center;
+  margin-bottom: var(--size-30);
+}
+
+.company-logos {
+  display: flex;
+  width: 800px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.logos {width: 100px;}
+
+.pricing-section {margin-bottom: var(--size-150);}
+
+.price-text-container {
+  text-align: center;
+  margin-top: var(--size-100);
+  margin-bottom: var(--size-50);
+}
+
+.price-text-container h2 {
+  font-size: var(--size-40);
+  margin-bottom: 0;
+}
+
+.pricing-info {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  margin-left: 3.75rem;
+}
+
+.price-card {
+ width: 25rem;
+ padding: var(--size-30);
+ box-shadow: 0 0 10px rgb(48 63 100 / 15%);
+ background-color: var(--white);
+ border-radius: 8px;
+ height: 23.4375rem;
+ grid-row-start: 1;
+ grid-row-end: 3;
+}
+
+.price-icons {width: 3.4375rem;}
+
+.pricing-btn {
+  padding: 15px 20px;
+}
+
+.small-print-btn {
+  margin-top: 10px;
+  font-size: 10px;
+
 }
