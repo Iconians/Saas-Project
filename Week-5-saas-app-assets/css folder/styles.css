@@ -31,7 +31,6 @@
 .navbar-nav {
   display: flex;
   align-items: center;
-  margin-right: 4.375rem;
   flex-wrap: wrap;
 }
 
@@ -44,6 +43,8 @@
   color: var(--font-color-link);
   font-weight: 600;
 }
+
+.buy-now {margin-right: 4.375rem;}
 
 .main-header-container, .empower-container {
   display: flex;
@@ -241,6 +242,7 @@
   height: 30rem;
   background-color: var(--bg-color);
   flex-wrap: wrap;
+  width: 99%;
 }
 
 .text-container {

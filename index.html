@@ -21,7 +21,7 @@
          </select>
        </div>
        <div class="top-demo-doc">
-         <select class="top-buttons" name="demos" id="">
+         <select class="top-buttons demos" name="demos" id="">
           <option value="demos">Demos</option>
          </select>
          <select class="top-buttons docs" name="docs" id="">
@@ -35,9 +35,9 @@
        <nav id="topNav" class="navBar nav">
          <div class="container">
           <div class="main-header-container"> 
-           <!-- <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+           <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
              <span>&#9776;</span>
-          </button> -->
+          </button>
             <img class="brand-name" src="/Week-5-saas-app-assets/.gitignore/project_logo/logo.svg" alt="Front">
             <ul class="navbar-nav">
               <li class="navLink"><a href="#">Home</a></li>
@@ -45,8 +45,8 @@
               <li class="navLink"><a href="#">Learn</a></li>
               <li class="navLink"><a href="#">pricing</a></li>
               <li class="navLink"><a href="#">Hire Us</a></li>
-              <a class="btn buy-now" href="#">Buy Now</a>
             </ul>
+            <a class="btn buy-now" href="#">Buy Now</a>
           </div>
         </nav>
      </div>
@@ -415,7 +415,17 @@
         </div>
       </div>
     </section>
+  
+  <script>
+    const navbutton = document.querySelector('button[aria-expanded');
 
+    function toggleNav ({target}) {
+      const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+      navbutton.setAttribute('aria-expanded', !expanded);
+    }
+    
+    navbutton.addEventListener('click', toggleNav);
+  </script>
 
   </div>
 </body>
