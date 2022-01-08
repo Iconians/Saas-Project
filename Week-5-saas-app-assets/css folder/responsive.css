@@ -1,0 +1,226 @@
+@media  screen and (max-width: 1142px) {
+  .block-text {margin-left: var(--size-14);}
+
+  .text-container {margin: auto auto;}
+
+  .pricing-info {margin-left: var(--size-14);}
+
+  .hire-us {margin-right: 0;}
+}
+
+@media screen and (max-width: 1024px) {
+  .banner1 {width: 39.5625rem;}
+
+  .price-card {margin-right: var(--size-10);}
+
+  .components {margin-right: var(--size-20);}
+}
+
+@media screen and (max-width: 982px) {
+  .empowering {height: auto;}
+
+  .empower-container {flex-direction: column;}
+
+  .block-text {
+    margin-right: 0;
+    margin-bottom: var(--size-20);
+  }
+  
+  .perspective-container {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+  
+  .text-container {margin-bottom: var(--size-40);}
+
+  .banner1 {margin: auto;}
+
+  .pricing-info {
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-left: 10.3125rem;
+  }
+
+  .price-card {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-bottom: var(--size-30);
+  }
+
+  .hire-us-section {
+    height: auto;
+    padding-bottom: 3.75rem;}
+
+  .hire-us-container {flex-direction: column;}
+
+  .hire-us {
+    position: relative;
+    align-self: center;
+    top: initial;
+  }
+
+  .form-div {
+    align-self: center;
+    right: initial;
+  }
+
+  .footer-top-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    height: auto;
+  }
+
+  .documentation {
+    position: relative;
+    left: var(--size-100);
+  }
+
+  .resources {
+    position: relative;
+    left: 5rem ;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .vid-link {
+    max-width: 43.75rem;
+    align-self: center;
+    margin: 0 auto;
+  }
+
+  .testimonial {margin-bottom: var(--size-30);}
+
+  .testimonial-picture {margin-bottom: var(--size-20);}
+
+  .company-logos {width: initial;}
+}
+
+@media screen and (max-width: 670px) {
+  .emp-icons {
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 0;
+   }
+ 
+  .banner1 {
+    max-width: fit-content;
+    width: auto;  
+  }
+
+  .why-front-container {width: auto;}
+  
+  .why-front {
+    height: auto;
+  }
+  .dots-inline {
+    flex-direction: column;
+    width: 5rem;
+    height: 35.3125rem;
+    margin-bottom: var(--size-100);
+  }
+
+  .line1, .line, .line3 {
+    flex-grow: 0;
+    border-top: none;
+  }
+
+  .set1, .set2 {
+    display: flex;
+    flex-direction: column;
+    height: 11.875rem;
+    width: fit-content;
+    justify-content: space-between;
+    position: relative;
+    left: -2rem;
+  }
+
+  .dot1, .dot2, .dot3, .dot4 {text-align: center;}
+
+  .vid-link {
+    margin: 0;
+    width: 375px;
+    margin: auto;
+  }
+
+  .testimonial-picture {width: 375px;}
+
+  .main-pic {top: -4.75rem;} 
+
+  .company-logos {
+    flex-direction: column;
+    width: fit-content;
+  }
+
+  .logos {margin-bottom: var(--size-14);}
+
+  .pricing-info {margin-left: 0;}
+
+  .price-card {width: 23rem;}
+
+  .money, .images {width: 200px;}
+
+  .form {grid-template-rows: auto auto auto auto auto auto auto auto auto auto;}
+
+  #first-name {grid-column-end: 3;}
+
+  #last-name {
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
+
+  #email {
+    grid-column-end: 3;
+    grid-row-start: 4;
+  }
+
+  #website {
+    grid-row-start: 5;
+    grid-column-start: 1;
+  }
+
+  #budget {
+    grid-row-start: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  
+  #country {
+    grid-row-start: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  #more-info {grid-row-start: 8;}
+
+  #privacy-policy {grid-row-start: 9;}
+
+  .policy-p {grid-row-start: 9;}
+
+  .form-button {grid-row-start: 10;}
+
+  .footer-top {height: 51.25rem;}
+
+  .footer-top-container {grid-template-columns: auto auto;}
+
+  .documentation {position: unset;}
+
+  .resources {left: 9rem;}
+
+  .links {flex-direction: column;}
+
+  .left-links {left: 13.1875rem;}
+
+  .right-links {left: 13.1875rem;}
+
+  .right-reserved-div {
+    width: 375px;
+    margin: auto;
+  }
+
+  @media screen and (max-width: 375px) {
+    
+  }
+}
