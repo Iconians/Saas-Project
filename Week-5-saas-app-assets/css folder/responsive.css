@@ -275,14 +275,19 @@
     clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 0px 100%);
   }
 
-  .perspective-container,
+  
+
+  
   .vid-link,
   .test-text-container,
   .text-center {
     width: 360px;
   }
 
-  .testimonial-picture {text-align: unset;}
+  .testimonial-picture {
+    text-align: unset;
+    margin-right: 0;
+  }
 
   .background-dots {
     width: 11.1875rem;
@@ -317,10 +322,13 @@
     text-align: center;
     width: initial;
   }
-  .hire-us {align-self: initial;}
+  .hire-us {
+    align-self: initial;
+    width: 100%;
+  }
 
   .hire-us h2 {
-    position: relative;
+    position: initial;
     left: var(--size-100);
   }
 
@@ -347,7 +355,10 @@
   }
 
   .left-links, 
-  .right-links {left: 4.1875rem;}
+  .right-links {
+    margin: auto;
+    position: initial;
+  }
 
   .right-reserved-div {
     width: 21.875rem;
