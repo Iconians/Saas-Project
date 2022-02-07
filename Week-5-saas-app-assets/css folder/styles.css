@@ -497,7 +497,7 @@
   top: auto;
   bottom: 0px;
   margin-top: var(--size-20);
-  margin-right: -1.1875rem;
+  /* margin-right: -1.1875rem; */
 }
 #quote-carousel .carousel-indicators li {
   width: var(--size-50);

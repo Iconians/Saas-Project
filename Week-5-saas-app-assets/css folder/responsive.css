@@ -275,8 +275,7 @@
     clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 0px 100%);
   }
 
-  
-
+  .perspective-container{width: 100%;}
   
   .vid-link,
   .test-text-container,
@@ -331,6 +330,12 @@
     position: initial;
     left: var(--size-100);
   }
+
+  .hire-us hr {float: initial;}
+
+  .form-div {right: -1rem;}
+
+  .carousel-indicators {margin-right: 0;}
 
   .form {
     width: 15.75rem;
